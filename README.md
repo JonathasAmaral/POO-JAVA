@@ -1,2 +1,3 @@
 # POO-JAVA
-Repository for Java study
+
+**Repository for Java study
