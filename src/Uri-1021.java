@@ -1,3 +1,5 @@
+// Link do enunciado: https://www.urionlinejudge.com.br/judge/en/problems/view/1021
+
 import java.util.Locale;
 import java.util.Scanner;
 
