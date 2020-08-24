@@ -20,9 +20,9 @@ Boolean: É representado pelos valores True e False e, é armazenado em 1 bit
 
 ### Como converter um número binário para decimal...
 
-   0        0      1     1     1    1    0     0
+   0    |   0 |    1  |   1 |    1|  1 | 0 |  0
    
-   ^        ^      ^     ^     ^    ^    ^    ^
+   ^    |   ^ |    ^  |   ^ |    ^|  ^ | ^ |  ^
    
   128   |  64 |   32  |  16 |  8  | 4  | 2 |  1
 
