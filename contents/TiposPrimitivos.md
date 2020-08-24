@@ -28,6 +28,7 @@ Para converter basta somar os números que tem como sua posição o numero 1
 Exemplo: 
 
 Em número Binário (1 byte) = 0 0 1 1 1 1 0 0 
+
 Em Decimal = 4 + 8 + 16 + 32  = 60 
 
 
@@ -36,23 +37,28 @@ Em Decimal = 4 + 8 + 16 + 32  = 60
 - **byte**:
 
 Representa1 byte (ou 8 bits)
+
 O intervalo é de -128 à 127.
+
 Se conseguíssemos usar todos os bits para representar o valor de um número, teríamos um intervalo de 0 à 255.
 
 - **short**:
 
 Representa 16 bits (ou 2 bytes)
+
 O intervalo é de -32768 à 32767
 
 
 - **int**:
 
 Representa 32 bits (ou 4 bytes)
+
 O intervalo é de -8.589.934.592 à 8.589.934.591
 
 - **long**:
 
 Representa 64 bits (ou 8 bytes)
+
 O intervalo é de -9.223.372.036.854.775.808 à 9.223.372.036.854.775.807
 
 
@@ -81,5 +87,6 @@ Armazena um caractere, como 'a', 'b', ..., 'z', você pode usar o tipo char. Ele
 - **String**:
 
 Armazena textos entre áspas duplas; Ex: "JAVA", "HelloWorld"
+
 Não é um tipo primitivo (é um OBJETO), mas pode ser usado como se fosse um tipo primitivo
 
