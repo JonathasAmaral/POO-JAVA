@@ -9,7 +9,7 @@ Usamos:
     
 ### Ex: 
 
-´´´java 
+```java 
 
 import java.util.Scanner;
 
@@ -35,5 +35,5 @@ public class paresPositivos {
 
 }
 
-´´´ 
+```
 
