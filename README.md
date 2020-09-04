@@ -9,5 +9,7 @@ Repository for Java study
 
 [3- Operadores.](contents/Operadores.md)
 
-[4- Estruturas Condicionais.](contents/EstruturasCondicionais.md)
+[4- Scanner.](contents/Scanner.md)
+
+[5- Estruturas Condicionais.](contents/EstruturasCondicionais.md)
 
