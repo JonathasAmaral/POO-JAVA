@@ -2,7 +2,7 @@
 
 ### Para utilizar o Scanner: 
 Usamos: 
-  - importa a biblioteca: 
+  - importar a biblioteca: 
     - import java.util.Scanner;
   - Criar um objeto scanner:
     - Scanner input = new Scanner(System.in);
