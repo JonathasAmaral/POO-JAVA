@@ -13,3 +13,4 @@ Repository for Java study
 
 [5- Estruturas Condicionais.](contents/EstruturasCondicionais.md)
 
+[6- Estruturas de Repetição.](contents/estruturasDeRepetição.md)
