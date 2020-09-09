@@ -1,6 +1,8 @@
+package basic;
+
 import java.util.Scanner;
 
-public class maiorVontoFlutuante {
+public class maiorValorFlutuante {
     
     public static void main(String [] args) {
      
@@ -21,7 +23,7 @@ public class maiorVontoFlutuante {
         
         System.out.printf("O maior valor é o segundo valor digitado: %.2f \n", valor2);
       }
-      
+      valor.close();
     }
 
 }

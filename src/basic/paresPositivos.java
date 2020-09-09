@@ -1,3 +1,5 @@
+package basic;
+
 import java.util.Scanner;
 
 public class paresPositivos {
@@ -9,7 +11,7 @@ public class paresPositivos {
 		
 		for (int i = 0; i <= 24; i++) {
 		
-			System.out.println("Digite um número: ");
+			System.out.println("Digite um numero: ");
 			int numero = input.nextInt();
 			
 			if (numero % 2 == 0 && numero > 0) 
@@ -17,7 +19,7 @@ public class paresPositivos {
 		}
 
 		System.out.printf("Quantidade de numeros pares positivos: %d \n", contadorPares);
-		
+		input.close();
 	}
 
 }

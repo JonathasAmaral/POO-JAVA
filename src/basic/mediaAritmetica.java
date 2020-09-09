@@ -1,3 +1,5 @@
+package basic;
+
 import java.util.Scanner;
 
 public class mediaAritmetica {
@@ -15,6 +17,7 @@ public class mediaAritmetica {
     
     System.out.printf("The arithmetic mean is: %.2f \n", media);
     
+    input.close();
   }
   
 
