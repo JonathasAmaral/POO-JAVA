@@ -4,15 +4,9 @@
 ## for 
 
 - O for é usado geralmente quando se sabe a quantidade de interações
-
-### Sintaxe do for
-
-```java 
-  for (//Iniciar um contador; //Condição de parada; //Comando executado no fim da execução do for) {
-                       // comandos 
-  
-  }
-```
+- Sintaxe do for:
+	- for (//Iniciar um contador; //Condição de parada; //Comando executado no fim da execução do for) {}
+                        
 ### Ex:
 
 ```java
@@ -25,14 +19,8 @@
 
 - o while é usado geralmente quando não se sabe de interações
 - A diferença do while para o do-while é que o while não executa o primeiro comando sem verificar a condição, enquanto o do-while o faz
-
-### sintaxe do while 
-
-```java
-  while (//Condição de parada) {
-    //Comandos 
-  } 
-```
+- sintaxe do while: 
+	- while (//Condição de parada) {}
 
 ### Ex:
 
