@@ -273,7 +273,7 @@ class MainRefeicao{
 ```
 ---
 
-[Programas utilizando POO.](src/advanced/)
+[Programas utilizando POO.](../src/advanced/)
 
 ---
 
