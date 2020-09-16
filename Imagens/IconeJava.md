@@ -1,1 +1,1 @@
-![kisspng-java-runtime-environment-computer-icons-java-platf-java-5ade30636221c2 932728411524510819402](https://user-images.githubusercontent.com/69598952/93294228-54666680-f7c0-11ea-927c-d0e6e2c68b22.jpg)
+![](https://user-images.githubusercontent.com/69598952/93294228-54666680-f7c0-11ea-927c-d0e6e2c68b22.jpg)
