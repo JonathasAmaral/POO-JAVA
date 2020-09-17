@@ -279,3 +279,5 @@ class MainRefeicao{
 
 Dessa forma, com classes (com atributos, funções e construtores) e objetos é possível criar programas que representem o mundo real.
 Essa organização de entidades em classes e respectivos objetos é o que rege o paradigma de programação orientada a objetos.
+
+[OBS: Resumo retirado do repositorio de Eduardol Falcao... P2-Unifacisa ](https://github.com/eduardolfalcao)
