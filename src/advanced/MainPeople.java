@@ -15,6 +15,12 @@ public class MainPeople {
 		p2.idade = 12;
 		p2.peso = 33.5;
         p2.teste();
+        People p3 = new People();
+		p3.nome = "Julio";
+		p3.cpf = "435.824.253-68";
+		p3.idade = 22;
+		p3.peso = 102.00;
+        p3.teste();
 	}
 
 }
