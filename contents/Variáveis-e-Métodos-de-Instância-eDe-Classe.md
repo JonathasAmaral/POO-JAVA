@@ -93,7 +93,7 @@ Note que neste exemplo nós conseguimos exibir o cardápio sem ter um objeto da 
 Isto acontece porque o método **exibirCardapio()** é estático, não requerindo a existência de um objeto para ser executado.
 O método estático, assim como a variável estática, também pertence à classe, e poderia ser representado da seguinte forma:
 
-![alt text](Imagens/metodos-classe.png)
+![metodos-classe](https://user-images.githubusercontent.com/69598952/96195838-47a27300-0f24-11eb-8b21-dd686b4f216c.png)
 
 É interessante também perceber que não faria muito sentido a função exibirCardapio() ser uma função de instância.
 Se assim o fosse, primeiro seria preciso criar um objeto de Refeicao, mas nesse caso o cliente ainda não saberia quais seriam as opções disponíveis.
