@@ -19,3 +19,5 @@ Repository for Java study
 [6- Estruturas de Repetição.](contents/estruturasDeRepetição.md)
 
 [7- Classes e Objetos.](contents/ClassesEObjetos.md)
+
+  [7.1- Variáveis e Métodos de Instância e de Classe.](contents/Variáveis-e-Métodos-de-Instância-eDe-Classe.md)
