@@ -1,4 +1,4 @@
-package advanced;
+package ClassesEObjetos;
 public class LojadeCarros {
 
 	public static void main(String[] args) {

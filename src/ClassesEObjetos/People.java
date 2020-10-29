@@ -1,4 +1,4 @@
-package advanced;
+package ClassesEObjetos;
 // Class
 class People {
 	

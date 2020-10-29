@@ -1,4 +1,4 @@
-package advanced;
+package ClassesEObjetos;
 
 public class MainPeople {
 	public static void main(String[] args) {
