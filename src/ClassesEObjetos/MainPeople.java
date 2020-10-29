@@ -14,7 +14,7 @@ public class MainPeople {
 		p2.cpf = "254.435.234-43";
 		p2.idade = 12;
 		p2.peso = 33.5;
-                p2.teste();
+        p2.teste();
       
 	}
 
