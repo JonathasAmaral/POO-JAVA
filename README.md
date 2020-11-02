@@ -21,3 +21,6 @@ Repository for Java study
 [7- Classes e Objetos.](contents/ClassesEObjetos.md)
 
 &nbsp;  &nbsp;  [7.1- Variáveis e Métodos de Instância e de Classe.](contents/Variáveis-e-Métodos-de-Instância-eDe-Classe.md)
+
+&nbsp;  &nbsp;  [7.2- Encapsulamento.](contents/Encapsulamento.md)
+
