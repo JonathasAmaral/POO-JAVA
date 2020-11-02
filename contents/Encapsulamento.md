@@ -11,9 +11,6 @@ Algumas afirmações de Grady Booch (1991) que corroboram com os três pontos ci
 1. "*Encapsulamento* é o processo de *esconder todos os detalhes* de um objeto *que não contribuem* para suas características essenciais."
 2. "*Nenhuma parte* de um sistema complexo *deve depender* dos *detalhes internos* das outras partes."
 
-<p align="center">
-  <img width="400" height="275" src="imgs/encapsulamento.png">
-</p>
 
 O que nos permite implementar encapsulamento nos programas são os **modificadores de acesso**.
 Até este ponto de nossa disciplina, eu evitei focar neste aspecto, e não colocava modificador de acesso nos atributos e métodos.
