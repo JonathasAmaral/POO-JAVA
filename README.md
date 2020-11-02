@@ -1,8 +1,5 @@
 
 ![](https://user-images.githubusercontent.com/69598952/93296207-25062880-f7c5-11ea-8968-54935c8d3885.jpg)
-<p align="center">
-  <img width="400" height="275" src="Imagens/IconeJava.md">
-</p>
 
 # POO-JAVA
 
