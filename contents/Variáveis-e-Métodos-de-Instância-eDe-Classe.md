@@ -3,12 +3,12 @@
 ## Variaveis de instancia
 
 * Instancia é quando criamos um objeto com a variavel. (As variaveis de instancia pertecem ao objeto);
-* Posso atribuir valores a variaveis de classes sem que exista objeto algum;
 * Toda variavel que não é declarada com a palavra Static é uma variavel de instancia (ou objeto);
 
 ## Variaveis de classes 
 
-* Variaveis que ficam junto a classe. (Elas não nascem de objeto, elas pertencem a classe como um todo);
+* Variaveis que ficam junto a classe. (Elas não nascem de objeto, elas pertencem a classe como um todo)
+* Posso atribuir valores a variaveis de classes sem que exista objeto algum;
 * Toda variavel que é declarada com a palavra Static é uma variavel de classe;
 
 ## Métodos de Instância e de Classe
