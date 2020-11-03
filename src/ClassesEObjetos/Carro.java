@@ -2,6 +2,8 @@ package ClassesEObjetos;
 
 public class Carro {
 	
+	static boolean promocao;
+	
 	String nome;
 	String marca;
 	String cor;
@@ -43,24 +45,12 @@ public class Carro {
 		this.precoBase = precoBase;
 		
 	}
-	void calculaPreco() {
+	double calculaPreco() {
 		
 		double preco = 0;
+		preco += precoBase;
 		
-		if (vidroEletrico == true) {
-			preco += 1250.00;
-		}
-		if (arCondicionado == true) {
-			preco += 1250.00;
-		}
-		if (cambioAutomatico == true) {
-			preco += 1250.00;
-		}
-		if (direcaoEletrica == true) {
-			preco += 1250.00;
-		}
-		
-		switch (cor) {
+			switch (cor) {
 		
 		case "branca":
 			preco += 0.00;
@@ -76,24 +66,37 @@ public class Carro {
 			break;
 		default:
 			preco += 1000.00;
+				
 		}
-		precoBase += preco;	
-		System.out.printf("O Valor total é = %.2f \n",precoBase);
-		System.out.println("_______________________________________________________________");
+			
+		if (this.vidroEletrico == true) 
+			preco += 1250.00;
+		
+		if (this.arCondicionado == true) 
+			preco += 1250.00;
+		
+		if (this.cambioAutomatico == true) 
+			preco += 1250.00;
+		
+		if (this.direcaoEletrica == true) 
+			preco += 1250.00;
+		
+		
+		if (Carro.promocao) 
+			preco = 0.9 * preco;
+			
+		
+		return preco;
 	}
 	
-	void imprimir() {
-		
-		System.out.printf("Nome do carro = %s \n",this.nome);
-		System.out.printf("Marca do carro = %s \n",this.marca);
-		System.out.printf("Cor do carro = %s \n",this.cor);
-		
-		System.out.printf("O carro possui %d portas\n",this.portas);
-		System.out.printf("O carro possui vidor eletrico = %s \n",this.vidroEletrico);
-		System.out.printf("O carro possui ar condicionado = %s \n",this.arCondicionado);
-		System.out.printf("O carro possui cambio automatico = %s \n",this.cambioAutomatico);
-		System.out.printf("O carrp possui direção eletrica = %s \n",this.direcaoEletrica);
-		
+	public String toString() {
+		String desc = "";
+		desc += "Nome: " + nome + ", marca: " + marca + ", cor: " + cor + "\n";
+		desc += "Portas: " + portas + "\n";
+		desc += "Vidro eletrico: " + (vidroEletrico? "X":"") + ", Ar condicionado: " + (arCondicionado? "X":"") +"\n";
+		desc += "Cambio automatico: " + (cambioAutomatico? "X":"") + ", Direcao eletrica: " + (direcaoEletrica? "X":"") +"\n";
+		desc += "Preço: " + calculaPreco() + ", Promoção: "+ (promocao?"X":"") +"\n";
+		return desc;
 	}
 	
 }
