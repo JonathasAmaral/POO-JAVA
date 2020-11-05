@@ -24,3 +24,4 @@ Repository for Java study
 
 &nbsp;  &nbsp;  [7.2- Encapsulamento.](contents/Encapsulamento.md)
 
+&nbsp;  &nbsp;  [7.3- Strings.](contents/Strings)
