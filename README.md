@@ -26,4 +26,4 @@ Repository for Java study
 
 &nbsp;  &nbsp;  [7.3- Strings.](contents/Strings)
 
-&nbsp;  &nbsp;  [7.3- Enum.](contents/Enum)
+&nbsp;  &nbsp;  [7.4- Enum.](contents/Enum)
