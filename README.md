@@ -27,3 +27,5 @@ Repository for Java study
 &nbsp;  &nbsp;  [7.3- Strings.](contents/Strings.md)
 
 &nbsp;  &nbsp;  [7.4- Enum.](contents/Enum.md)
+
+&nbsp;  &nbsp;  [7.5- Arrays.](contents/Arrays.md)
