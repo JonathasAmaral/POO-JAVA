@@ -237,3 +237,7 @@ O código provido no exemplo varre o array de alunos e impime a média de cada u
  No caso de estarmos acessando o último elemento do array, *temp[pos]* onde *pos = 100000000-1*, a JVM acessaria o endereço de memória 327623 + pos * 4, ou seja, 327623+(100000000-1) * 4 = 400327619.
  
  É por esta razão que arrays são estruturas de rápido acesso, mesmo que seu tamanho seja absurdamente grande.
+ 
+ ---
+ 
+ 
