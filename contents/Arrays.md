@@ -224,7 +224,7 @@ O código provido no exemplo varre o array de alunos e impime a média de cada u
  
  Observe a ilustração:
  
- ![alt text](imgs/arrays.png)
+ ![alt text](Imagens/arrays.png)
  
  Na imagem estão ilustrados o endereço de memória do array, seus índices, e o tamanho de cada elemento do array (que por ser int é de 4 bytes).
  Note que se temos um array com 10^8 elementos, o último elementos estará no índice (10^8) - 1, pois o primeiro elemento fica no índice 0.
