@@ -14,15 +14,14 @@ Observe o trecho de código a seguir:
 
 
 ```java
-String nome = "Jonathas";
-String sobrenome = new String("Amaral");
+String nome = "Eduardo";
+String sobrenome = new String("Falcao");
 ```
 
 Ambas as variáveis *nome* e *sobrenome* apontam para objetos.
 Vocês lembram daquela história de que toda classe tem um contrutor, mesmo que ele seja oculto (pois a JVM injeta o código do construtor na classe)?
 Aqui acontece algo parecido.
 O fato é que é tão comum usarmos Strings em nossos programas que os criadores do Java acharam que seria mais interessante ter uma forma mais rápida de criar uma String, omitindo a chamado ao construtor, e consequentemente omitindo o *new*.
-
 
 ## Principais métodos da classe String
 
@@ -70,15 +69,12 @@ System.out.println(nome.toLowerCase());
 System.out.println(nome.toUpperCase());
 ```
 
-
 Se sabemos inglês, então o nome das funções consegue dar uma boa intuição do que ela faz.
 Não é nosso objetivo decorar todos os métodos.
 Mas é importante saber que existem, e é interessante ter uma noção dos mais comumente utilizados.
 No dia-a-dia do seu trabalho, é muito comum recorrer às APIs para lembrar ou conhecer como funciona determinado método.
 
-
 **Note também que cada operação que executamos gera um novo objeto.**
-
 Perceba que as alterações que fizemos na String nome não se acumularam.
 Se você quiser fazer algo nesta direção, você precisará reatribuir o resultado da operação à variável.
 
@@ -114,7 +110,6 @@ nome.concat(sobrenome);
 System.out.println(nome);
 ```
 
-
 ## Objetos, == e equals
 
 Uma String sempre é um objeto.
@@ -142,18 +137,20 @@ System.out.println(nome1.equals(nome3)); //true
 System.out.println(nome2.equals(nome3)); //true
 ```
 
-
 O que precisamos perceber é que no Java existe o que chamamos de "String pool".
 Se você instanciar uma String **sem a palavra reservada new**, então o Java tentará economizar memória, verificando se já existe um objeto com aquele mesmo conteúdo criado.
 Em caso positivo, ele reaproveita aquele objeto, atribuindo seu endereço de memória à variável.
 Por outro lado, sempre que uma String for **criada usando explicitamente a palavra reservada new**, então independente de já haver um objeto String com aquele conteúdo criado, a JVM criará um novo objeto.
 
+A imagem a seguir ilustra o que aconteceu no exemplo anterior:
+
+![alt text](Imagens/string-pool.png)
+
+Por essa razão, sempre que quiser comparar o conteúdo de duas Strings, use o método **equals**.
 
 ## Imutabilidade de Strings
 
-
 **Em Java, Strings são objetos imutáveis.**
-
 O que isso quer dizer?
 Quer dizer que toda vez que você altera uma String, na verdade, você cria um novo objeto String e o anterior ficará ocupando espaço na memória até o *Garbage Collector* ser executado e removê-lo.
 
@@ -168,12 +165,14 @@ nome += " Falcao";
 System.out.println(nome);
 ```
 
-
 Nesse exemplo, a princípio, um objeto String foi criado para armazenar "Eduardo".
 Em seguida, uma nova String, "Eduardo de", foi criada. Nesse momento, a String "Eduardo" existe na memória mas não é usada.
 Depois, uma nova String, "Eduardo de Lucena", foi criada. Nesse momento, as Strings "Eduardo" e "Eduardo de" existem na memória mas não são usadas.
 E isto acontece sucessivamente.
 
+Observe este fato na ilustração a seguir:
+
+![alt text](Imagens/strings-imutaveis-full.png)
 
 ## StringBuilder
 
@@ -189,8 +188,10 @@ nomeCompleto.append(" Falcao");
 System.out.println(nomeCompleto);
 ```
 
-
 Nesse caso, ao criar um objeto da classe StringBuilder, apenas um objeto é criado. Nenhuma memória é "desperdiçada".
+Esse código poderia ser representado com a seguinte imagem:
+
+![alt text](Imagens/stringbuilder.png)
 
 Embora saibamos disso, é bastante comum usarmos String em nossas classes.
 O uso de StringBuilder é recomendado em uma situação em que muitas operações são executadas nas Strings em pouco intervalo de tempo.
@@ -199,4 +200,6 @@ Isso geralmente é usado em competições de programação, ou em alguma situaç
 O que eu acho importante é que a gente saiba desses detalhes.
 Talvez, algum dia, em uma entrevista com uma empresa importante, mostrar que você sabe esses tipos detalhes torna evidente que você é uma pessoa informada e que conhece detalhes importantes da linguagem Java.
 
+---
 
+[Exercícios sobre Strings](../exercicios/Strings.md)
