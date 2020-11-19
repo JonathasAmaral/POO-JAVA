@@ -29,3 +29,5 @@ Repository for Java study
 &nbsp;  &nbsp;  [7.4- Enum.](contents/Enum.md)
 
 &nbsp;  &nbsp;  [7.5- Arrays.](contents/Arrays.md)
+
+&nbsp;  &nbsp;  [7.6- Listas.](contents/Listas.md)
