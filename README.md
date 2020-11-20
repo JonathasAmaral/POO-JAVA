@@ -31,3 +31,7 @@ Repository for Java study
 &nbsp;  &nbsp;  [7.5- Arrays.](contents/Arrays.md)
 
 &nbsp;  &nbsp;  [7.6- Listas.](contents/Listas.md)
+
+[8- Reuso.](contents/Reuso.md)
+
+
