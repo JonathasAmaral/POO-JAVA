@@ -38,7 +38,7 @@ Repository for Java study
 
 [10 - Classes Abstratas e Polimorfismo](https://docs.google.com/presentation/d/1GHyzLmvu_oqOW-3I6L_3k7kV4WioQoRmDuLHw8uQuJw/edit?usp=sharing)
 
-[11 - Interfaces](conteudos/Interfaces.md)
+[11 - Interfaces](contents/Interfaces.md)
 
 [12 - Exceções](https://docs.google.com/presentation/d/1d5GU4ogLLL-fUi4E6OJskhnfbQ3xTdyUjp_65vy3SY4/edit?usp=sharing)
 
