@@ -34,4 +34,4 @@ Repository for Java study
 
 [8- Reuso.](contents/Reuso.md)
 
-
+[8- Polimorfismo.](contents/Polimorfismo.md)
